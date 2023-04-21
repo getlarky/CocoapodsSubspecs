@@ -1,0 +1,35 @@
+use_modular_headers!
+use_frameworks!
+
+target 'nudgeBase' do
+# use_frameworks!
+#  pod 'Firebase'
+#  pod 'Firebase/Core', '~> 10.0'
+#  pod 'Firebase/Messaging', '~> 9.3.0'
+#  pod 'Analytics', '~> 4.1.2'
+#  pod 'nudgeBase','2.0.3-logs'
+  project '../../nudge-ios-native.xcworkspace'
+#   project '../../nudge-ios-native.xcodeproj'
+#  pod 'Analytics', '~> 4.1.2'
+  pod 'nudgeBase', :path => './'
+#  pod 'EnvironmentUtils', :path => './'
+#  pod 'nudgeBase/KeyValueStore'
+#  pod 'nudgeBase/NudgeAnalytics'
+#  pod 'nudgeBase/NudgeBase'
+end
+
+#target 'EnvironmentUtils' do
+#  project '../../nudge-ios-native.xcodeproj'
+  # Your test-specific pods here
+#  pod 'nudgeBase/EnvironmentUtils'
+# end
+
+platform :ios, '11.0'
+
+post_install do |installer|
+ installer.pods_project.targets.each do |target|
+  target.build_configurations.each do |config|
+   config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '11.0'
+  end
+ end
+end

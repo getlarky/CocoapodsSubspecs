@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		461C506D296F362A0069B020 /* LarkyProdApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461C506C296F362A0069B020 /* LarkyProdApp.swift */; };
+		461C5071296F362C0069B020 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 461C5070296F362B0069B020 /* Assets.xcassets */; };
+		461C5074296F362C0069B020 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 461C5073296F362C0069B020 /* Preview Assets.xcassets */; };
+		461C507B296F36660069B020 /* AppBase in Frameworks */ = {isa = PBXBuildFile; productRef = 461C507A296F36660069B020 /* AppBase */; };
+		465D907329E738BF00200B11 /* NudgeBase in CopyFiles */ = {isa = PBXBuildFile; fileRef = 467B9B7128889BD30049603F /* NudgeBase */; };
+		46B6E84A299E90C600589010 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 46B6E849299E90C500589010 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		465D904629E7317800200B11 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				465D907329E738BF00200B11 /* NudgeBase in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		461C506A296F362A0069B020 /* LarkyProd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LarkyProd.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		461C506C296F362A0069B020 /* LarkyProdApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LarkyProdApp.swift; sourceTree = "<group>"; };
+		461C5070296F362B0069B020 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		461C5073296F362C0069B020 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		461C5078296F36420069B020 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		461C5079296F364E0069B020 /* LarkyProd.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LarkyProd.entitlements; sourceTree = "<group>"; };
+		461E36E82970B8C5002114D5 /* UIViews */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = UIViews; sourceTree = "<group>"; };
+		465D904829E7317800200B11 /* libnudgeBase.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libnudgeBase.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		467B9B7128889BD30049603F /* NudgeBase */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = NudgeBase; sourceTree = "<group>"; };
+		46B6E849299E90C500589010 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		46DF1CEE296DF321004B2555 /* AppBase */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = AppBase; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		461C5067296F362A0069B020 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				461C507B296F36660069B020 /* AppBase in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		465D904529E7317800200B11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		461C506B296F362A0069B020 /* LarkyProd */ = {
+			isa = PBXGroup;
+			children = (
+				461C5079296F364E0069B020 /* LarkyProd.entitlements */,
+				461C5078296F36420069B020 /* Info.plist */,
+				46B6E849299E90C500589010 /* GoogleService-Info.plist */,
+				461C506C296F362A0069B020 /* LarkyProdApp.swift */,
+				461C5070296F362B0069B020 /* Assets.xcassets */,
+				461C5072296F362C0069B020 /* Preview Content */,
+			);
+			path = LarkyProd;
+			sourceTree = "<group>";
+		};
+		461C5072296F362C0069B020 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				461C5073296F362C0069B020 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		467B9B3428889B600049603F = {
+			isa = PBXGroup;
+			children = (
+				467B9B7028889B830049603F /* Packages */,
+				461C506B296F362A0069B020 /* LarkyProd */,
+				467B9B3E28889B610049603F /* Products */,
+				467B9B792889A2690049603F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		467B9B3E28889B610049603F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				461C506A296F362A0069B020 /* LarkyProd.app */,
+				465D904829E7317800200B11 /* libnudgeBase.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		467B9B7028889B830049603F /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				461E36E82970B8C5002114D5 /* UIViews */,
+				46DF1CEE296DF321004B2555 /* AppBase */,
+				467B9B7128889BD30049603F /* NudgeBase */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		467B9B792889A2690049603F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		461C5069296F362A0069B020 /* LarkyProd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 461C5075296F362C0069B020 /* Build configuration list for PBXNativeTarget "LarkyProd" */;
+			buildPhases = (
+				461C5066296F362A0069B020 /* Sources */,
+				461C5067296F362A0069B020 /* Frameworks */,
+				461C5068296F362A0069B020 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LarkyProd;
+			packageProductDependencies = (
+				461C507A296F36660069B020 /* AppBase */,
+			);
+			productName = LarkyProd;
+			productReference = 461C506A296F362A0069B020 /* LarkyProd.app */;
+			productType = "com.apple.product-type.application";
+		};
+		465D904729E7317800200B11 /* nudgeBase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 465D904E29E7317800200B11 /* Build configuration list for PBXNativeTarget "nudgeBase" */;
+			buildPhases = (
+				465D904429E7317800200B11 /* Sources */,
+				465D904529E7317800200B11 /* Frameworks */,
+				465D904629E7317800200B11 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nudgeBase;
+			productName = nudgeBase;
+			productReference = 465D904829E7317800200B11 /* libnudgeBase.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		467B9B3528889B600049603F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					461C5069296F362A0069B020 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					465D904729E7317800200B11 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 467B9B3828889B600049603F /* Build configuration list for PBXProject "nudge-ios-native" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 467B9B3428889B600049603F;
+			packageReferences = (
+			);
+			productRefGroup = 467B9B3E28889B610049603F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				461C5069296F362A0069B020 /* LarkyProd */,
+				465D904729E7317800200B11 /* nudgeBase */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		461C5068296F362A0069B020 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				461C5074296F362C0069B020 /* Preview Assets.xcassets in Resources */,
+				461C5071296F362C0069B020 /* Assets.xcassets in Resources */,
+				46B6E84A299E90C600589010 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		461C5066296F362A0069B020 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				461C506D296F362A0069B020 /* LarkyProdApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		465D904429E7317800200B11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		461C5076296F362C0069B020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_ENTITLEMENTS = LarkyProd/LarkyProd.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "LarkyProd/Preview\\ Content";
+				DEVELOPMENT_TEAM = Y743VYEYK3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LarkyProd/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Larky Prod";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Location always and when in use usage description here.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Location always usage description.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Location when in use usage description here.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.larky.Larky-Prod";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		461C5077296F362C0069B020 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_ENTITLEMENTS = LarkyProd/LarkyProd.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "LarkyProd/Preview\\ Content";
+				DEVELOPMENT_TEAM = Y743VYEYK3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LarkyProd/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Larky Prod";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Location always and when in use usage description here.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Location always usage description.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Location when in use usage description here.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.larky.Larky-Prod";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		465D904C29E7317800200B11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y743VYEYK3;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		465D904D29E7317800200B11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y743VYEYK3;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		467B9B6528889B630049603F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		467B9B6628889B630049603F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		461C5075296F362C0069B020 /* Build configuration list for PBXNativeTarget "LarkyProd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				461C5076296F362C0069B020 /* Debug */,
+				461C5077296F362C0069B020 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		465D904E29E7317800200B11 /* Build configuration list for PBXNativeTarget "nudgeBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				465D904C29E7317800200B11 /* Debug */,
+				465D904D29E7317800200B11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		467B9B3828889B600049603F /* Build configuration list for PBXProject "nudge-ios-native" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				467B9B6528889B630049603F /* Debug */,
+				467B9B6628889B630049603F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		461C507A296F36660069B020 /* AppBase */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AppBase;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 467B9B3528889B600049603F /* Project object */;
+}
