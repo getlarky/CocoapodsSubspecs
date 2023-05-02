@@ -37,18 +37,17 @@ Pod::Spec.new do |s|
  # s.default_subspecs = 'EnvironmentUtils', 'KeyValueStore',  'NudgeBase'
   
   s.subspec 'EnvironmentUtils' do |eu|
-    eu.source_files = 'Sources/EnvironmentUtils/*.{swift}'
+    eu.source_files = 'nudgeBase/Sources/EnvironmentUtils/*.{swift}'
   end
   
   s.subspec 'KeyValueStore' do |kv|
-    kv.source_files = 'Sources/KeyValueStore/*.{swift}'
+    kv.source_files = 'nudgeBase/Sources/KeyValueStore/*.{swift}'
   end
   
   s.subspec 'NudgeBase' do |nb|
     nb.source_files = 'Sources/NudgeBase/*.{swift}'
-    nb.source_files = 'Sources/EnvironmentUtils/*.{swift}'
-#    nb.dependency 'nudgeBase/EnvironmentUtils'
-    nb.dependency 'nudgeBase/KeyValueStore'
+    nb.source_files = 'nudgeBase/Sources/EnvironmentUtils/*.{swift}'
+    nb.source_files = 'nudgeBase/Sources/KeyValueStore/*.{swift}'
   end
   
 end
