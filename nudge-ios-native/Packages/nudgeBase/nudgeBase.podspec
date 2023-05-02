@@ -46,7 +46,8 @@ Pod::Spec.new do |s|
   
   s.subspec 'NudgeBase' do |nb|
     nb.source_files = 'Sources/NudgeBase/*.{swift}'
-    nb.dependency 'nudgeBase/EnvironmentUtils'
+    nb.source_files = 'Sources/EnvironmentUtils/*.{swift}'
+#    nb.dependency 'nudgeBase/EnvironmentUtils'
     nb.dependency 'nudgeBase/KeyValueStore'
   end
   
